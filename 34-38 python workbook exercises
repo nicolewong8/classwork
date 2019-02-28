@@ -1,0 +1,87 @@
+#34 review
+num = int (input("enter number"))
+if num % 2 == 0:
+    print ("this number is even")
+else:
+    print ("this number is odd")
+
+#35
+humanyear = int (input ("enter how old you are:"))
+if humanyear * 1 < 0:
+    print ("error negative age")
+    if humanyear - 1 == 0: 
+        print (" you are 1 year old in dog years")
+else:
+    adultage = humanyear -2 
+    puppyyear =10.5 * 2 
+    dogyear = adultage * 7
+    dogage = puppyyear + dogyear 
+    print ("your age in dog years is" , dogyear
+    )
+
+
+
+
+#36
+letter = input ("enter a letter")
+if letter == "a" or letter == "e" or letter == "i" or  letter == "o" or letter == "u":
+    print("it is a vowel")
+else:
+    print("this is a consnant")
+if letter == "y":
+    print(" and is sometimes a vowel")
+
+#37
+name = ""
+nsides = int(input("enter number of sides:"))
+if nsides == 3:
+    name  = "triangle"
+if nsides == 4:
+    name = "quadrilateral"
+if nsides == 5:
+    name = "pentagon"
+if nsides == 6:
+    name = "hexagon"
+if nsides == 7:
+    name = "heptagon"
+if nsides == 8:
+    name = "octagon"
+if nsides == 9:
+    name = "nonagon"
+if nsides == 10:
+    name = "decagon"
+if name == "":
+    print ("error")
+else:
+    print ("this is a" , name)
+
+#48
+year = int (input ("enter your birth year:"))
+
+if year % 12 == 8:
+    animal = "dragon"
+elif year % 12 == 9:
+    animal = "snake"
+elif year % 12 == 10:
+    animal = "horse"
+elif year % 12 == 11:
+    animal = "sheep"
+elif year % 12 == 12:
+    animal = "monkey"
+elif year % 12 == 13:
+    animal = "rooster"
+elif year % 12 == 14:
+    animal = "dog"
+elif year % 12 == 15:
+    animal = "pig"
+elif year % 12 == 16:
+    animal = "rat"
+elif year % 12 == 17:
+    animal = "ox"
+elif year % 12 == 18:
+    animal ="tiger"
+elif year % 12 == 19:
+    animal = "hare"
+
+print (animal)
+
